@@ -5,3 +5,5 @@ pygithub
 pyyaml
 pytest-flask
 pytest-cov
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
