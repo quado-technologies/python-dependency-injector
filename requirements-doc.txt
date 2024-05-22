@@ -3,3 +3,4 @@ sphinx<3.5.0
 -e git://github.com/rmk135/sphinxcontrib-disqus.git#egg=sphinxcontrib-disqus
 
 -r requirements-ext.txt
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
