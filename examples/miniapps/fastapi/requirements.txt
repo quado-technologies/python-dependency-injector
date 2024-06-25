@@ -6,3 +6,4 @@ httpx
 pyyaml
 pytest-asyncio
 pytest-cov
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
