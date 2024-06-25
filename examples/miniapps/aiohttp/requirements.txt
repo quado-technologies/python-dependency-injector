@@ -4,3 +4,4 @@ aiohttp-devtools
 pyyaml
 pytest-aiohttp
 pytest-cov
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
