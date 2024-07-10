@@ -16,3 +16,4 @@ boto3
 mypy_boto3_s3
 
 -r requirements-ext.txt
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
