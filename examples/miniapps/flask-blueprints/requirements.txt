@@ -5,3 +5,6 @@ pygithub
 pyyaml
 pytest-flask
 pytest-cov
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
